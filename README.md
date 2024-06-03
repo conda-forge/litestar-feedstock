@@ -173,6 +173,19 @@ Development: https://github.com/litestar-org/litestar
 
 Documentation: https://docs.litestar.dev
 
+About litestar-with-pydantic
+----------------------------
+
+Home: https://litestar.dev
+
+Package license: MIT
+
+Summary: Light-weight and flexible ASGI API Framework (with pydantic)
+
+Development: https://github.com/litestar-org/litestar
+
+Documentation: https://docs.litestar.dev
+
 About litestar-with-redis
 -------------------------
 
@@ -257,6 +270,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--opentelemetry-green.svg)](https://anaconda.org/conda-forge/litestar-with-opentelemetry) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-opentelemetry.svg)](https://anaconda.org/conda-forge/litestar-with-opentelemetry) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-opentelemetry.svg)](https://anaconda.org/conda-forge/litestar-with-opentelemetry) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-opentelemetry.svg)](https://anaconda.org/conda-forge/litestar-with-opentelemetry) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--picologging-green.svg)](https://anaconda.org/conda-forge/litestar-with-picologging) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-picologging.svg)](https://anaconda.org/conda-forge/litestar-with-picologging) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-picologging.svg)](https://anaconda.org/conda-forge/litestar-with-picologging) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-picologging.svg)](https://anaconda.org/conda-forge/litestar-with-picologging) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--prometheus-green.svg)](https://anaconda.org/conda-forge/litestar-with-prometheus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-prometheus.svg)](https://anaconda.org/conda-forge/litestar-with-prometheus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-prometheus.svg)](https://anaconda.org/conda-forge/litestar-with-prometheus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-prometheus.svg)](https://anaconda.org/conda-forge/litestar-with-prometheus) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--pydantic-green.svg)](https://anaconda.org/conda-forge/litestar-with-pydantic) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-pydantic.svg)](https://anaconda.org/conda-forge/litestar-with-pydantic) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-pydantic.svg)](https://anaconda.org/conda-forge/litestar-with-pydantic) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-pydantic.svg)](https://anaconda.org/conda-forge/litestar-with-pydantic) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--redis-green.svg)](https://anaconda.org/conda-forge/litestar-with-redis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-redis.svg)](https://anaconda.org/conda-forge/litestar-with-redis) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-redis.svg)](https://anaconda.org/conda-forge/litestar-with-redis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-redis.svg)](https://anaconda.org/conda-forge/litestar-with-redis) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--standard-green.svg)](https://anaconda.org/conda-forge/litestar-with-standard) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-standard.svg)](https://anaconda.org/conda-forge/litestar-with-standard) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-standard.svg)](https://anaconda.org/conda-forge/litestar-with-standard) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-standard.svg)](https://anaconda.org/conda-forge/litestar-with-standard) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-litestar--with--structlog-green.svg)](https://anaconda.org/conda-forge/litestar-with-structlog) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/litestar-with-structlog.svg)](https://anaconda.org/conda-forge/litestar-with-structlog) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/litestar-with-structlog.svg)](https://anaconda.org/conda-forge/litestar-with-structlog) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/litestar-with-structlog.svg)](https://anaconda.org/conda-forge/litestar-with-structlog) |
@@ -271,16 +285,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `litestar, litestar-with-annotated-types, litestar-with-attrs, litestar-with-brotli, litestar-with-cli, litestar-with-cryptography, litestar-with-full, litestar-with-jinja, litestar-with-jwt, litestar-with-mako, litestar-with-minijinja, litestar-with-opentelemetry, litestar-with-picologging, litestar-with-prometheus, litestar-with-redis, litestar-with-standard, litestar-with-structlog` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `litestar, litestar-with-annotated-types, litestar-with-attrs, litestar-with-brotli, litestar-with-cli, litestar-with-cryptography, litestar-with-full, litestar-with-jinja, litestar-with-jwt, litestar-with-mako, litestar-with-minijinja, litestar-with-opentelemetry, litestar-with-picologging, litestar-with-prometheus, litestar-with-pydantic, litestar-with-redis, litestar-with-standard, litestar-with-structlog` can be installed with `conda`:
 
 ```
-conda install litestar litestar-with-annotated-types litestar-with-attrs litestar-with-brotli litestar-with-cli litestar-with-cryptography litestar-with-full litestar-with-jinja litestar-with-jwt litestar-with-mako litestar-with-minijinja litestar-with-opentelemetry litestar-with-picologging litestar-with-prometheus litestar-with-redis litestar-with-standard litestar-with-structlog
+conda install litestar litestar-with-annotated-types litestar-with-attrs litestar-with-brotli litestar-with-cli litestar-with-cryptography litestar-with-full litestar-with-jinja litestar-with-jwt litestar-with-mako litestar-with-minijinja litestar-with-opentelemetry litestar-with-picologging litestar-with-prometheus litestar-with-pydantic litestar-with-redis litestar-with-standard litestar-with-structlog
 ```
 
 or with `mamba`:
 
 ```
-mamba install litestar litestar-with-annotated-types litestar-with-attrs litestar-with-brotli litestar-with-cli litestar-with-cryptography litestar-with-full litestar-with-jinja litestar-with-jwt litestar-with-mako litestar-with-minijinja litestar-with-opentelemetry litestar-with-picologging litestar-with-prometheus litestar-with-redis litestar-with-standard litestar-with-structlog
+mamba install litestar litestar-with-annotated-types litestar-with-attrs litestar-with-brotli litestar-with-cli litestar-with-cryptography litestar-with-full litestar-with-jinja litestar-with-jwt litestar-with-mako litestar-with-minijinja litestar-with-opentelemetry litestar-with-picologging litestar-with-prometheus litestar-with-pydantic litestar-with-redis litestar-with-standard litestar-with-structlog
 ```
 
 It is possible to list all of the versions of `litestar` available on your platform with `conda`:

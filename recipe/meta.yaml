@@ -1,4 +1,4 @@
-{% set version = "2.8.3" %}
+{% set version = "2.9.0" %}
 
 # handle undefined PYTHON in `noarch: generic` outputs
 {% if PYTHON is not defined %}{% set PYTHON = "$PYTHON" %}{% endif %}
@@ -10,7 +10,7 @@ package:
 source:
   url: https://pypi.io/packages/source/l/litestar/litestar-{{ version }}.tar.gz
   # the SHA256 gets updated by the bot
-  sha256: 3764eef3885b331bfb15c478a2b9e2bc1980741ff58bd5512d599436f669549c
+  sha256: bea384c9ddae74bcb0d96ecb6dc1b51f8a13d50173cdfd56bfd2627ede505154
 
 build:
   # the build number gets reset by the bot
@@ -346,6 +346,31 @@ outputs:
       license: MIT
       license_file: LICENSE
 
+  - name: litestar-with-pydantic
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - {{ pin_subpackage("litestar", exact=True) }}
+        - email-validator
+        - pydantic
+        - pydantic-extra-types
+    test:
+      imports:
+        - litestar
+        - litestar.contrib.pydantic
+      commands:
+        - pip check
+      requires:
+        - pip
+    about:
+      home: https://litestar.dev
+      dev_url: https://github.com/litestar-org/litestar
+      doc_url: https://docs.litestar.dev
+      summary: Light-weight and flexible ASGI API Framework (with pydantic)
+      license: MIT
+      license_file: LICENSE
+
   - name: litestar-with-redis
     build:
       noarch: generic
@@ -438,6 +463,7 @@ outputs:
         - {{ pin_subpackage("litestar-with-opentelemetry", exact=True) }}
         - {{ pin_subpackage("litestar-with-picologging", exact=True) }}
         - {{ pin_subpackage("litestar-with-prometheus", exact=True) }}
+        - {{ pin_subpackage("litestar-with-pydantic", exact=True) }}
         - {{ pin_subpackage("litestar-with-redis", exact=True) }}
         - {{ pin_subpackage("litestar-with-standard", exact=True) }}
         - {{ pin_subpackage("litestar-with-structlog", exact=True) }}
