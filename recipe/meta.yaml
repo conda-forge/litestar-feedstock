@@ -214,7 +214,7 @@ outputs:
       run:
         - {{ pin_subpackage("litestar", exact=True) }}
         - cryptography
-        - python-jose
+        - pyjwt >=2.9.0
     test:
       imports:
         - litestar
