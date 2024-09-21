@@ -37,6 +37,7 @@ outputs:
         - hatchling
         - python >=3.8
       run:
+        - annotated-types
         - python >=3.8
         - anyio >=3
         - click
