@@ -1,4 +1,4 @@
-{% set version = "2.11.0" %}
+{% set version = "2.12.0" %}
 
 # handle undefined PYTHON in `noarch: generic` outputs
 {% if PYTHON is not defined %}{% set PYTHON = "$PYTHON" %}{% endif %}
@@ -10,7 +10,7 @@ package:
 source:
   url: https://pypi.io/packages/source/l/litestar/litestar-{{ version }}.tar.gz
   # the SHA256 gets updated by the bot
-  sha256: 6c8cf2b60c352e6b8e08e6a995d2a66ddc26ec53bc2f1df7214d26abcc1d00c2
+  sha256: 0cae5be3c8b4a7c895209237ce7f0d1cea9f08db23fe0e55d805dbcac0a99591
 
 build:
   # the build number gets reset by the bot
