@@ -117,29 +117,6 @@ outputs:
       license: MIT
       license_file: LICENSE
 
-  - name: litestar-with-htmx
-    build:
-      noarch: generic
-    requirements:
-      run:
-        - {{ pin_subpackage("litestar", exact=True) }}
-        - litestar-htmx >=0.3.0
-    test:
-      imports:
-        - litestar
-        - litestar.plugins.htmx
-      commands:
-        - pip check
-      requires:
-        - pip
-    about:
-      home: https://litestar.dev
-      dev_url: https://github.com/litestar-org/litestar
-      doc_url: https://docs.litestar.dev
-      summary: Light-weight and flexible ASGI API Framework (with htmx)
-      license: MIT
-      license_file: LICENSE
-
   - name: litestar-with-brotli
     build:
       noarch: generic
@@ -481,7 +458,6 @@ outputs:
         - {{ pin_subpackage("litestar", exact=True) }}
         - {{ pin_subpackage("litestar-with-annotated-types", exact=True) }}
         - {{ pin_subpackage("litestar-with-attrs", exact=True) }}
-        - {{ pin_subpackage("litestar-with-htmx", exact=True) }}
         - {{ pin_subpackage("litestar-with-brotli", exact=True) }}
         - {{ pin_subpackage("litestar-with-cli", exact=True) }}
         - {{ pin_subpackage("litestar-with-cryptography", exact=True) }}
