@@ -1,4 +1,4 @@
-{% set version = "2.14.0" %}
+{% set version = "2.15.0" %}
 
 {% set python_min = python_min | default("3.9") %}
 
@@ -12,7 +12,7 @@ package:
 source:
   url: https://pypi.org/packages/source/l/litestar/litestar-{{ version }}.tar.gz
   # the SHA256 gets updated by the bot
-  sha256: ac154e46fb74ec4bbce7660f6f437adb7d413ea9bad52cd7954dc1d25e243716
+  sha256: 81291b6f791775267740aa0587a41b082ae1520907bc7125ff41c39c4360e8b8
 
 build:
   # the build number gets reset by the bot
