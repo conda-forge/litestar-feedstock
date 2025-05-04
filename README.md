@@ -82,6 +82,19 @@ Development: https://github.com/litestar-org/litestar
 
 Documentation: https://docs.litestar.dev
 
+About litestar-with-full
+------------------------
+
+Home: https://litestar.dev
+
+Package license: MIT
+
+Summary: Light-weight and flexible ASGI API Framework (with all extras)
+
+Development: https://github.com/litestar-org/litestar
+
+Documentation: https://docs.litestar.dev
+
 About litestar-with-jinja
 -------------------------
 
@@ -220,19 +233,6 @@ Home: https://litestar.dev
 Package license: MIT
 
 Summary: Light-weight and flexible ASGI API Framework (with structlog)
-
-Development: https://github.com/litestar-org/litestar
-
-Documentation: https://docs.litestar.dev
-
-About litestar-with-full
-------------------------
-
-Home: https://litestar.dev
-
-Package license: MIT
-
-Summary: Light-weight and flexible ASGI API Framework (with all extras)
 
 Development: https://github.com/litestar-org/litestar
 
