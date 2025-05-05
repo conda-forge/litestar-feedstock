@@ -4,6 +4,7 @@ schema_version: 1
 context:
   version: 2.16.0
   python_check_max: "3.13"
+  python_check_picologging_max: "3.12"
 
 recipe:
   name: litestar-split
@@ -319,7 +320,7 @@ outputs:
           pip_check: true
           python_version:
             - ${{ python_min }}.*
-            - ${{ python_check_max }}.*
+            - ${{ python_check_picologging_max }}.*
     about:
       summary: Light-weight and flexible ASGI API Framework (with picologging)
       license: MIT
@@ -476,11 +477,11 @@ outputs:
         - ${{ pin_subpackage("litestar-with-structlog", exact=True) }}
     tests:
       - python:
-          imports: litesta
+          imports: litestar
           pip_check: true
           python_version:
             - ${{ python_min }}.*
-            - ${{ python_check_max }}.*
+            - ${{ python_check_picologging_max }}.*
     about:
       summary: Light-weight and flexible ASGI API Framework (with all extras)
       license: MIT
