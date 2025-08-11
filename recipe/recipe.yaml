@@ -386,7 +386,7 @@ outputs:
       run:
         - ${{ pin_subpackage("litestar", exact=True) }}
         - hiredis >=1.0.0
-        - redis-py >=4.4.4
+        - redis-py >=4.4.4,<5.3
     tests:
       - python:
           imports: litestar.stores.redis
