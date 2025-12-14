@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.18.0"
+  version: "2.19.0"
   python_check_max: "3.13"
   python_check_picologging_max: "3.12"
 
@@ -13,7 +13,7 @@ recipe:
 source:
   # the SHA256 gets updated by the bot
   url: https://pypi.org/packages/source/l/litestar/litestar-${{ version }}.tar.gz
-  sha256: be8f91813854722b7a2f37cbb57d76977050a96b2427d3c4455d406f0f4fcd50
+  sha256: c2663a7f48a7ed273615260c23fc76dbef2ca0d539ece25318772b737470c531
 
 build:
   # the build number gets reset by the bot
