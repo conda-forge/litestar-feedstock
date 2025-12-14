@@ -42,8 +42,6 @@ outputs:
         - exceptiongroup
         - exceptiongroup >=1.2.2
         - httpx >=0.22
-        - importlib-metadata
-        - importlib-resources >=5.12.0
         - litestar-htmx >=0.4.0
         - msgspec >=0.18.2
         - multidict >=6.0.2
@@ -264,7 +262,7 @@ outputs:
           pip_check: true
           python_version:
             - ${{ python_min }}.*
-            - ${{ python_check_max }}.*
+            - "3.12.*"
     about:
       summary: Light-weight and flexible ASGI API Framework (with [picologging])
 
@@ -296,7 +294,6 @@ outputs:
         - email-validator
         - pydantic
         - pydantic-extra-types
-        - pydantic-extra-types !=2.9.0
     tests:
       - python:
           imports: litestar.contrib.pydantic
@@ -395,7 +392,7 @@ outputs:
           pip_check: true
           python_version:
             - ${{ python_min }}.*
-            - ${{ python_check_max }}.*
+            - "3.12.*"
     about:
       summary: Light-weight and flexible ASGI API Framework (with all [extras])
 
