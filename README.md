@@ -24,7 +24,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with annotated-types)
+Summary: Light-weight and flexible ASGI API Framework (with [annotated-types])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -37,7 +37,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with attrs)
+Summary: Light-weight and flexible ASGI API Framework (with [attrs])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -50,7 +50,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with brotli)
+Summary: Light-weight and flexible ASGI API Framework (with [brotli])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -63,7 +63,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with cli)
+Summary: Light-weight and flexible ASGI API Framework (with [cli])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -76,7 +76,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with cryptography)
+Summary: Light-weight and flexible ASGI API Framework (with [cryptography])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -89,7 +89,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with all extras)
+Summary: Light-weight and flexible ASGI API Framework (with all [extras])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -102,7 +102,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with jinja)
+Summary: Light-weight and flexible ASGI API Framework (with [jinja])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -115,7 +115,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with jwt)
+Summary: Light-weight and flexible ASGI API Framework (with [jwt])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -128,7 +128,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with mako)
+Summary: Light-weight and flexible ASGI API Framework (with [mako])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -141,7 +141,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with minijinja)
+Summary: Light-weight and flexible ASGI API Framework (with [minijinja])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -154,7 +154,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with opentelemetry)
+Summary: Light-weight and flexible ASGI API Framework (with [opentelemetry])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -167,7 +167,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with picologging)
+Summary: Light-weight and flexible ASGI API Framework (with [picologging])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -180,7 +180,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with prometheus)
+Summary: Light-weight and flexible ASGI API Framework (with [prometheus])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -193,7 +193,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with pydantic)
+Summary: Light-weight and flexible ASGI API Framework (with [pydantic])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -206,7 +206,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with redis)
+Summary: Light-weight and flexible ASGI API Framework (with [redis])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -219,7 +219,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with standard)
+Summary: Light-weight and flexible ASGI API Framework (with [standard])
 
 Development: https://github.com/litestar-org/litestar
 
@@ -232,7 +232,7 @@ Home: https://litestar.dev/
 
 Package license: MIT
 
-Summary: Light-weight and flexible ASGI API Framework (with structlog)
+Summary: Light-weight and flexible ASGI API Framework (with [structlog])
 
 Development: https://github.com/litestar-org/litestar
 
