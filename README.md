@@ -7,7 +7,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/litestar-feedst
 About litestar
 --------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -20,7 +20,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-annotated-types
 -----------------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -33,7 +33,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-attrs
 -------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -46,7 +46,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-brotli
 --------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -59,7 +59,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-cli
 -----------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -72,7 +72,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-cryptography
 --------------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -85,7 +85,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-full
 ------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -98,7 +98,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-jinja
 -------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -111,7 +111,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-jwt
 -----------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -124,7 +124,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-mako
 ------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -137,7 +137,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-minijinja
 -----------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -150,7 +150,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-opentelemetry
 ---------------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -163,7 +163,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-picologging
 -------------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -176,7 +176,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-prometheus
 ------------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -189,7 +189,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-pydantic
 ----------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -202,7 +202,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-redis
 -------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -215,7 +215,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-standard
 ----------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
@@ -228,7 +228,7 @@ Documentation: https://docs.litestar.dev/
 About litestar-with-structlog
 -----------------------------
 
-Home: https://litestar.dev/
+Home: https://pypi.org/project/litestar
 
 Package license: MIT
 
