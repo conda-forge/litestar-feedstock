@@ -330,7 +330,6 @@ outputs:
     requirements:
       run:
         - ${{ pin_subpackage("litestar", exact=True) }}
-        - fast-query-parsers >=1.0.2
         - jinja2
         - jsbeautifier
         - uvicorn
