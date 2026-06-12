@@ -238,6 +238,7 @@ outputs:
       run:
         - ${{ pin_subpackage("litestar", exact=True) }}
         - opentelemetry-instrumentation-asgi
+        - opentelemetry-sdk
     tests:
       - python:
           imports: litestar.contrib.opentelemetry
