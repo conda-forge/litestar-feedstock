@@ -2,8 +2,8 @@
 schema_version: 1
 
 context:
-  version: "2.24.0"
-  python_check_max: "3.14"
+  version: "2.25.0"
+  python_check_max: "3.15"
 
 recipe:
   name: litestar-split
@@ -12,7 +12,7 @@ recipe:
 source:
   url: https://pypi.org/packages/source/l/litestar/litestar-${{ version }}.tar.gz
   # the SHA256 gets updated by the bot
-  sha256: 8f4b137cb115554b9fbc12bd01d398d5bb40ba85f2d333dd73f4b747308bbb46
+  sha256: 7fad91fcd89367fcd26534ab19b6b05763cc67ab9574baa914546089e1ed1fb4
 
 build:
   # the build number gets reset by the bot
